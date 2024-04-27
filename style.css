@@ -1,0 +1,49 @@
+body {
+    background: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.mainSection {
+    width: 340px;
+    height: 520px;
+    background: white;
+    margin: auto; 
+    margin-top: 9rem;
+    border-radius: 3%;
+    font-family:'Outfit', Courier, monospace
+}
+.mainSection img {
+    width: 90%;
+    height: 40%;
+    border-radius: 3%;
+}
+.imageContainer {
+    text-align: center;
+    padding: 1rem 0;
+}
+#mainTitle {
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    font-size: 1.45rem;
+    padding: 0 2.8rem;
+    margin-top: 0rem;
+}
+#mainSubtitle {
+    font-size: 0.9375rem;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding: 0 3rem; 
+}
+.footerSection {
+    margin-top: auto;
+}
+.footerSection p {
+   text-align: center;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
